@@ -4,24 +4,12 @@
 </div>
 
 <div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
 
-  <div class="col-lg-6">
-    <div id="messages"></div>
-<input id="name" type="text" placeholder="name"></input>
-<input id="chat-input" type="text" placeholder="message"></input>
+  <div class="col-md-12">
+    <div id="messages" style="background:#ccc; padding:20px;"></div>
+    <p><strong>NOMBRE</strong></p><input id="name" type="text" placeholder="name"></input>
+    <p></p>
+    <p><strong>MENSAJE</strong></p>
+    <input id="chat-input" type="text" placeholder="message"></input>
   </div>
 </div>
