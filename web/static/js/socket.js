@@ -72,7 +72,7 @@ chatInput.on("keypress", event => {
 
 channel.on("new_msg", payload => {
   messagesContainer.append(
-    `<strong>${payload.name || "Anónimo"}:</strong> ${payload.body}`
+    `<div><strong>${payload.name || "Anónimo"}:</strong> ${payload.body}</div>`
   )
 })
 
